@@ -1,12 +1,15 @@
 # KenyanFace Mitigates Data Bia for Generative Face Models
 
-We propose KenyanFace, a large-scale image dataset primarily composed of faces from Black individuals, and KenyanFaceHQ, a high-quality subset of 120K images at a resolution of 1024×1024. The proposed datasets are available at https://portals.mdi.georgetown.edu/public/kenyanfacehq.
+We propose KenyanFace, a large-scale image dataset primarily composed of faces from Black individuals, and KenyanFaceHQ, a high-quality subset of 120K images at a resolution of 1024×1024.
+
+## Dataset
+The proposed KenyanFace and KenyanFaceHQ datasets are available at [here](https://portals.mdi.georgetown.edu/public/kenyanfacehq).
 
 ## Task 1: Unconditional Face Generation using Latent Diffusion Models
 
 We use the official implementation of [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://arxiv.org/abs/2112.10752) from [here](https://github.com/CompVis/latent-diffusion/tree/main). 
 
-We retrain their models by incorprating the proposed KenyanFaceHQ dataset in the training data.
+We retrain their models by incorporating the proposed KenyanFaceHQ dataset in the training data.
 
 
 ### Training
