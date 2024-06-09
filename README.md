@@ -1,4 +1,4 @@
-# Source Code for KenyanFace Achieves Data Bias Mitigation for Generative Face Models
+# KenyanFace Mitigates Data Bia for Generative Face Models
 
 We propose KenyanFace, a large-scale image dataset primarily composed of faces from Black individuals, and KenyanFaceHQ, a high-quality subset of 120K images at a resolution of 1024×1024. The proposed datasets will be made public upon acceptance.
 
@@ -62,3 +62,5 @@ Run the evaluation script for different models.
 python test.py --model <PATH_OF_MODEL>
 ```
 
+
+License: CC BY 4.0
